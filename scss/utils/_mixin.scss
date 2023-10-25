@@ -1,0 +1,18 @@
+@mixin title($color,$size,$weight,$height) {
+    color: $color;
+font-family: Inter;
+font-size: $size;
+font-style: normal;
+font-weight: $weight;
+line-height: $height;
+}
+
+@mixin text($color,$align,$size,$weight,$height) {
+    color: $color;
+    text-align: $align;
+font-family: Inter;
+font-size: $size;
+font-style: normal;
+font-weight: $weight;
+line-height: $height;
+}

@@ -1,0 +1,23 @@
+.gathering {
+    padding: 46px 0 147px;
+    background: $color_black2;
+    &__title {
+        @include title($color_yellow,64px,400,normal);
+        margin: 0;
+    }
+
+    &__text {
+        width: 578px;
+height: 153.64px;
+margin: 0;
+
+@include text($color_white,justify,24px,400,normal);
+padding: 46px 0 135px;
+}
+&__group {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;}
+    
+}

@@ -1,0 +1,32 @@
+.help {
+background: $color_black2;
+padding: 40px 0 47px;
+
+    &__title {
+        @include title($color_yellow,64px,400,normal);
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        
+}
+&__text {
+    @include title($color_black,32px,400,normal);
+    margin: 0;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.90);
+    position: absolute;
+    padding: 88px 40px;
+    bottom: 5px;
+}
+
+
+
+&__list {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+}
+.help__item:nth-child(2) .help__text {
+    padding: 88px 20px;
+}

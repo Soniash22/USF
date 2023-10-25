@@ -1,0 +1,69 @@
+.about {
+    background: #050404;
+
+&__logo {
+    color: #FFD76E;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+padding: 40px 0 40px 0;
+}
+
+&__text {
+    color: #FFF;
+text-align: justify;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 892px;
+height: 80px;
+}
+&__p {
+
+@include title($color_white,24px,400,normal);
+
+display: flex;
+    justify-content: center;
+    
+    margin: 8px 0 0 0;
+
+}
+
+
+&__list {
+    position: relative;
+    height: 720px;
+    margin: 0;
+}
+
+&__item1 {
+    position: absolute;
+    left: 11%;
+    bottom: 22.5%;
+}
+&__item2 {
+    position: absolute;
+    top: 4%;
+    right: 42%;
+}
+
+&__item3 {
+    position: absolute;
+    left: 39%;
+    bottom: 8%;
+}
+
+&__item4 {
+    position: absolute;
+    right: 14%;
+    bottom: 35%;
+}
+
+}
+

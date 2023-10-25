@@ -1,0 +1,24 @@
+.gamesZSU {
+     background-image: url(./../../img/background.png);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 43px 0 180px;
+
+    &__text {
+        @include title($color_white,24px,400,normal);
+        display: flex;
+    justify-content: center;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__title {
+        @include title($color_yellow,64px,400,normal);
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        padding: 265px 0 0 0;
+    }
+}
